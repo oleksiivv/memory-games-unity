@@ -1829,8 +1829,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM
-    LOREM IPSUM '
+  m_Text: Memorize the scene as good as possible and then try to answer the question!
 --- !u!222 &307015803
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5577,16 +5576,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ScenesManager, Assembly-CSharp
-        m_MethodName: OpenScene
-        m_Mode: 3
+      - m_Target: {fileID: 374050301}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: Rate
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://vertexstudio.herokuapp.com/contacts
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1485721568
@@ -6535,7 +6534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1781719072
 Animator:
   serializedVersion: 3

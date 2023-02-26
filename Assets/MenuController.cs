@@ -24,4 +24,8 @@ public class MenuController : ScenesManager
 
         levelsPanel.SetActive(active);
     }
+
+    public void Rate(string url){
+        Application.OpenURL(url);
+    }
 }
